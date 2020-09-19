@@ -50,7 +50,7 @@ Partial Class FrmAbout
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(113, 124)
+        Me.Button1.Location = New System.Drawing.Point(98, 131)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(94, 23)
         Me.Button1.TabIndex = 3
@@ -60,7 +60,7 @@ Partial Class FrmAbout
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(109, 72)
+        Me.LinkLabel1.Location = New System.Drawing.Point(94, 79)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(98, 13)
         Me.LinkLabel1.TabIndex = 4
@@ -70,7 +70,7 @@ Partial Class FrmAbout
         'LinkLabel2
         '
         Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Location = New System.Drawing.Point(105, 90)
+        Me.LinkLabel2.Location = New System.Drawing.Point(90, 97)
         Me.LinkLabel2.Name = "LinkLabel2"
         Me.LinkLabel2.Size = New System.Drawing.Size(108, 13)
         Me.LinkLabel2.TabIndex = 5
@@ -81,7 +81,7 @@ Partial Class FrmAbout
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(311, 175)
+        Me.ClientSize = New System.Drawing.Size(311, 195)
         Me.Controls.Add(Me.LinkLabel2)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Button1)

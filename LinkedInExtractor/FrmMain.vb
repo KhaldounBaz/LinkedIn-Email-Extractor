@@ -272,10 +272,6 @@ Public Class FrmMain
         TextBox3.Text = ""
     End Sub
 
-    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
-
-    End Sub
-
     Private Sub ClearListToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ClearListToolStripMenuItem.Click
         ListView1.Items.Clear()
     End Sub
@@ -292,7 +288,4 @@ Public Class FrmMain
         FrmAbout.ShowDialog()
     End Sub
 
-    Private Sub ViewHelpToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ViewHelpToolStripMenuItem.Click
-        Process.Start("http://store.mediaplus.me/leee/")
-    End Sub
 End Class
